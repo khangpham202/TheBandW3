@@ -10,10 +10,10 @@
 `HTML` `CSS` `JavaScript`
 
 ## Some preview images
-![Header]()
-![The BAND]()
-![Tour Dates]()
-![Contact]()
+![Header](./assets/img/demo/Header.png)
+![The BAND](./assets/img/demo/TheBand.png)
+![Tour Dates](./assets/img/demo/TourDates.png)
+![Contact](./assets/img/demo/Contact.png)
 
 ## Learn more
 * I learned to do this web in [F8 - Học lập trình để đi làm](https://fullstack.edu.vn/)
