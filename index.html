@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="https://www.mcicon.com/wp-content/uploads/2021/01/Music_Music_1-copy-9.jpg" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
@@ -16,19 +17,19 @@
         <div id="header">
             <!-- Begin: Nav -->
             <ul id="nav">
-                <li><a href="">Home</a></li>
-                <li><a href="">Band</a></li>
-                <li><a href="">Tour</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#band">Band</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <li>
                     <a href="#">
                         More
                         <i class="nav-arrow-down fas fa-caret-down"></i>
                     </a>
                     <ul class="subnav">
-                        <li><a href="">Merchandise</a></li>
-                        <li><a href="">Extras</a></li>
-                        <li><a href="">Media</a></li>
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#">Extras</a></li>
+                        <li><a href="#">Media</a></li>
                     </ul>
                 </li>
             </ul>
@@ -52,7 +53,7 @@
 
         <div id="content">
             <!-- About section -->
-            <div class="content-section">
+            <div id="band" class="content-section">
                 <h2 class="section-heading">THE BAND</h2>
                 <p class="section-sub-heading">We love music</p>
                 <p class="about-text">
@@ -91,7 +92,7 @@
             </div>
 
             <!-- Tour section -->
-            <div class="tour-section">
+            <div id="tour" class="tour-section">
                 <div class="content-section">
                     <h2 class="section-heading text-white">TOUR DATES</h2>
                     <p class="section-sub-heading text-white">Remember to book your tickets</p>
@@ -113,7 +114,7 @@
                                 <p class="place-time">Fri 27 Nov 2016</p>
                                 <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                                 </p>
-                                <button href="#" class="place-buy-btn js-buy-ticket">Buy Tickets</button>
+                                <button href="#" class="btn js-buy-ticket">Buy Tickets</button>
                             </div>
                         </div>
 
@@ -125,7 +126,7 @@
                                 <p class="place-time">Sat 28 Nov 2016</p>
                                 <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                                 </p>
-                                <button href="#" class="place-buy-btn js-buy-ticket">Buy Tickets</button>
+                                <button href="#" class="btn js-buy-ticket">Buy Tickets</button>
                             </div>
                         </div>
 
@@ -137,15 +138,15 @@
                                 <p class="place-time">Sun 29 Nov 2016</p>
                                 <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                                 </p>
-                                <button href="#" class="place-buy-btn js-buy-ticket">Buy Tickets</button>
+                                <button href="#" class="btn js-buy-ticket">Buy Tickets</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Contact section -->
-            <div class="content-section">
+            <!--Begin Contact section -->
+            <div id="contact" class="content-section">
                 <h2 class="section-heading">CONTACT</h2>
                 <p class="section-sub-heading">Fan? Drop a note!</p>
 
@@ -179,14 +180,29 @@
                                     <input type="text" name="" required class="form-control" placeholder="Message" id="contact-messsage">
                                 </div>
                             </div>
-                            <input class="form-submit-btn mt-16" type="submit" value="SEND">
+                            <input class="btn mt-16 pull-right" type="submit" value="SEND">
                         </form>
                     </div>
                 </div>
             </div>
+            <!-- End Contect section -->
+
+            <div class="map-section">
+                <img src="/clone-w3s-template-band/assets/img/map/map.jpg" alt="Map">
+            </div>
         </div>
 
-        <div id="footer"></div>
+        <div id="footer">
+            <div class="socials-list">
+                <a href="https://www.facebook.com/tien.huynhlethuy.tn/"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/_huynh.tien.5536_/"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-snapchat"></i></a>
+                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/tienhuynhlttn/"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <p class="copyright">Powered by <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a></p>
+        </div>
     </div>
 
     <div class="modal js-modal">
