@@ -77,6 +77,10 @@ html {
     margin-top: 16px;
 }
 
+.mt-32{
+    margin-top: 32px;
+}
+
 /* MAIN */
 #main{
 
@@ -150,7 +154,15 @@ html {
     color: #fff;
 }
 
-#header .search-btn{
+#header .mobile-menu-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+#header .search-btn,
+#header .mobile-menu-btn{
     float: right;
     padding: 12px 24px;
 }
@@ -160,6 +172,16 @@ html {
     cursor: pointer;
 }
 
+#header .mobile-menu-btn:hover{
+    background-color: #ccc;
+}
+
+#header .mobile-menu-btn:hover .menu-icon{
+    color: #000;
+    background-color: #ccc;
+}
+
+#header .menu-icon,
 #header .search-icon{
     color: #fff;    
 }
@@ -191,6 +213,7 @@ html {
     font-size: 15px;
     margin: 25px;
     font-weight: bold;
+    text-shadow: 0 0 1px #000;
 }
 
 #content{
@@ -199,10 +222,13 @@ html {
 
 #content .content-section{
     width: 800px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding: 64px 0 112px;
     text-align: justify;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 #content .section-heading{
@@ -227,7 +253,7 @@ html {
 }
 
 #content .member-list{
-    margin-top: 48px;
+    margin-top: 32px;
     /* overflow: hidden; */
     /* dùng class clear */
 }
@@ -280,7 +306,7 @@ html {
 }
 
 .places-list{
-    margin-top: 32px;
+    margin-top: 16px;
 }
 
 .place-img{
@@ -322,6 +348,7 @@ html {
     margin-top: 15px;
     border: none;
     cursor: pointer;
+    -webkit-appearance: none;
 }
 
 .btn:hover{
@@ -452,6 +479,15 @@ Position là fixed
 .contact-info i[class*=fas] {
     width: 30px;
     display: inline-block;
+}
+
+.contact-info a{
+    color: #101aef;
+    opacity: 0.8;
+}
+
+.contact-info a:hover{
+    opacity: 1;
 }
 
 .contact-form{

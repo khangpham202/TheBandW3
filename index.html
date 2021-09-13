@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="https://www.mcicon.com/wp-content/uploads/2021/01/Music_Music_1-copy-9.jpg" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
     <title>Band</title>
@@ -35,11 +36,14 @@
             </ul>
             <!-- End: Nav -->
 
+            <!-- Mobile menu button -->
+            <div id="mobile-menu" class="mobile-menu-btn">
+                <i class="menu-icon fas fa-bars"></i>
+            </div>
             <!-- Begin: Search button -->
             <div class="search-btn">
                 <i class="search-icon fas fa-search"></i>
             </div>
-            <!-- End: Search button -->
         </div>
 
         <div id="slider">
@@ -71,19 +75,19 @@
                 </p>
 
                 <div class="row member-list">
-                    <div class=" col col-third text-center">
+                    <div class="col col-third s-col-full mt-32 text-center">
                         <p class="member-name">Name</p>
                         <img src="/clone-w3s-template-band/assets/img/band/bandmember.jpg" alt="Name"
                             class="member-img" />
                     </div>
 
-                    <div class=" col col-third text-center">
+                    <div class="col col-third s-col-full mt-32 text-center">
                         <p class="member-name">Name</p>
                         <img src="/clone-w3s-template-band/assets/img/band/bandmember.jpg" alt="Name"
                             class="member-img" />
                     </div>
 
-                    <div class=" col col-third text-center">
+                    <div class="col col-third s-col-full mt-32 text-center">
                         <p class="member-name">Name</p>
                         <img src="/clone-w3s-template-band/assets/img/band/bandmember.jpg" alt="Name"
                             class="member-img" />
@@ -106,7 +110,7 @@
 
                     <!-- Places -->
                     <div class="row places-list">
-                        <div class="col col-third">
+                        <div class="col col-third mt-16 s-col-full">
                             <img src="/clone-w3s-template-band/assets/img/places/newyork.jpg" alt="New York"
                                 class="place-img">
                             <div class="place-body">
@@ -114,11 +118,11 @@
                                 <p class="place-time">Fri 27 Nov 2016</p>
                                 <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                                 </p>
-                                <button href="#" class="btn js-buy-ticket">Buy Tickets</button>
+                                <button href="#" class="btn s-full-width js-buy-ticket">Buy Tickets</button>
                             </div>
                         </div>
 
-                        <div class="col col-third">
+                        <div class="col col-third mt-16 s-col-full">
                             <img src="/clone-w3s-template-band/assets/img/places/paris.jpg" alt="Paris"
                                 class="place-img">
                             <div class="place-body">
@@ -126,11 +130,11 @@
                                 <p class="place-time">Sat 28 Nov 2016</p>
                                 <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                                 </p>
-                                <button href="#" class="btn js-buy-ticket">Buy Tickets</button>
+                                <button href="#" class="btn s-full-width js-buy-ticket">Buy Tickets</button>
                             </div>
                         </div>
 
-                        <div class="col col-third">
+                        <div class="col col-third mt-16 s-col-full">
                             <img src="/clone-w3s-template-band/assets/img/places/sanfran.jpg" alt="San Francisco"
                                 class="place-img">
                             <div class="place-body">
@@ -138,7 +142,7 @@
                                 <p class="place-time">Sun 29 Nov 2016</p>
                                 <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                                 </p>
-                                <button href="#" class="btn js-buy-ticket">Buy Tickets</button>
+                                <button href="#" class="btn s-full-width js-buy-ticket">Buy Tickets</button>
                             </div>
                         </div>
                     </div>
@@ -151,27 +155,27 @@
                 <p class="section-sub-heading">Fan? Drop a note!</p>
 
                 <div class="row contact-content">
-                    <div class="col col-half contact-info">
+                    <div class="col col-half s-col-full contact-info">
                         <p>
                             <i class="fas fa-map-marker-alt"></i>
                             Chicago, US
                         </p>
                         <p>
                             <i class="fas fa-phone-alt"></i>
-                            Phone: +00 151515
+                            Phone: <a href="tel:+00 151515">+00 151515</a>
                         </p>
                         <p>
                             <i class="fas fa-envelope"></i>
-                            Email: mail@mail.com
+                            Email: <a href="mailto:mail@mail.com">mail@mail.com</a>
                         </p>
                     </div>
-                    <div class="col col-half contact-form">
+                    <div class="col col-half s-col-full contact-form">
                         <form action="">
                             <div class="row">
-                                <div class="col col-half">
+                                <div class="col col-half s-col-full">
                                     <input type="text" name="" required class="form-control" placeholder="Name" id="contact-name">
                                 </div>
-                                <div class="col col-half">
+                                <div class="col col-half s-col-full s-mt-8">
                                     <input type="email" name="" required class="form-control" placeholder="Email" id="contact-email">
                                 </div>
                             </div>
@@ -180,7 +184,7 @@
                                     <input type="text" name="" required class="form-control" placeholder="Message" id="contact-messsage">
                                 </div>
                             </div>
-                            <input class="btn mt-16 pull-right" type="submit" value="SEND">
+                            <input class="contact-submit-btn btn mt-16 s-col-full s-full-width pull-right" type="submit" value="SEND">
                         </form>
                     </div>
                 </div>
@@ -241,6 +245,39 @@
         </div>
     </div>
 
+    <!-- Script hiển thị menu trên mobile -->
+    <script>
+        var header = document.getElementById('header');
+        var mobileMenu = document.getElementById('mobile-menu');
+        var headerHeight = header.clientHeight;
+        
+        // Đóng mở mobile menu
+        mobileMenu.onclick = function() {
+            var isClosed = header.clientHeight === headerHeight;
+            if (isClosed) {
+                header.style.height = 'auto';
+            } else {
+                header.style.height = null;
+            }
+        }
+        
+        // Tự động đóng khi chọn menu
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+        for (var i = 0; i < menuItems.length; i++) {
+            var menuItem = menuItems[i];
+            
+            menuItem.onclick = function(event) {
+                var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+                if (isParentMenu) {
+                    event.preventDefault();
+                } else {
+                    header.style.height = null;
+                }
+            }
+        }
+    </script>
+
+    <!-- Script hiển thị modal -->
     <script>
         const buyBtns = document.querySelectorAll('.js-buy-ticket')
         const modal = document.querySelector('.js-modal')
