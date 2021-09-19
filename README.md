@@ -21,3 +21,5 @@
 
 ## :heavy_check_mark:	 License & Copyright
 &copy; 2021 Tien Huynh tienhuynh-tn Licensed under the [MIT LICENSE](https://github.com/tienhuynh-tn/clone-w3s-template-band/blob/master/LICENSE).
+
+###### :love_you_gesture:	 Feel free to use and star my repository if you find something interesting :love_you_gesture:	
