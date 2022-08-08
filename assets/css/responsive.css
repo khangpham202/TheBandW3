@@ -69,7 +69,7 @@
     #nav .subnav a{
         padding: 5px 12px;
     }
-
+    
     .contact-form .form-control{
         padding: 15px;
         font-size: 16px;
@@ -105,4 +105,9 @@
 /* PC */
 @media (min-width: 64em){
 
+}
+@media (min-width: 1024px){
+.carousel-caption{
+    margin-bottom: 10% !important;
+}
 }
